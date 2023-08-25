@@ -11,7 +11,7 @@
  * @return {number}
  */
 var deepestLeavesSum = function(root) {
-    let sums = []
+    const sums = []
     const dfs = (node, lvl) => {
         if(lvl === sums.length) sums[lvl] = node.val
         else sums[lvl] += node.val
