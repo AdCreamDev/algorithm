@@ -6,7 +6,6 @@
 #         self.right = right
 class Solution:
     def findMode(self, root: Optional[TreeNode]) -> List[int]:
-
         nodeDict = {}
 
         def dfs(node, dic):
