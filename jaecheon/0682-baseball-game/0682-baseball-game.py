@@ -1,6 +1,6 @@
 class Solution:
     def calPoints(self, operations: List[str]) -> int:
-        arr = []
+        arr = [] 
         
         for item in operations:
             if item == "C":
