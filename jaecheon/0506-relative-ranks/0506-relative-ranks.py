@@ -2,7 +2,7 @@ class Solution:
     def findRelativeRanks(self, score: List[int]) -> List[str]:
         rank = ["Gold Medal", "Silver Medal", "Bronze Medal"]
         result = [ "" for i in range(len(score)) ]
-        ranker = {}
+        ranker = {} 
         
         for pos, point in enumerate(score):
             ranker[point] = pos
