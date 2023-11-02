@@ -6,10 +6,9 @@ class Solution:
         for pos, width in enumerate(widths):
             charDict[arr[pos]] = width
 
-        print(charDict)
-
         lines = 1
         strLength = 0
+
         for char in s:
             if strLength + charDict[char] > 100:
                 lines += 1
@@ -17,9 +16,5 @@ class Solution:
             else:
                 strLength += charDict[char]
 
-
-        print("len", strLength)
-
-        # lines = int(str(strLength)[:-2]) + 1 if strLength > 99 else 0
-
         return [lines, strLength]
+        
