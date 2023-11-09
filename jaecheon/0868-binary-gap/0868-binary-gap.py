@@ -1,5 +1,6 @@
 class Solution:
     def binaryGap(self, n: int) -> int:
+
         binString = "{0:b}".format(n)
 
         max = 0
@@ -17,3 +18,4 @@ class Solution:
                 acc += 1
 
         return 0 if count <= 1 else max
+
