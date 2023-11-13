@@ -1,3 +1,4 @@
+
 <h2><a href="https://leetcode.com/problems/binary-gap/">868. Binary Gap</a></h2><h3>Easy</h3><hr><div><p>Given a positive integer <code>n</code>, find and return <em>the <strong>longest distance</strong> between any two <strong>adjacent</strong> </em><code>1</code><em>'s in the binary representation of </em><code>n</code><em>. If there are no two adjacent </em><code>1</code><em>'s, return </em><code>0</code><em>.</em></p>
 
 <p>Two <code>1</code>'s are <strong>adjacent</strong> if there are only <code>0</code>'s separating them (possibly no <code>0</code>'s). The <b>distance</b> between two <code>1</code>'s is the absolute difference between their bit positions. For example, the two <code>1</code>'s in <code>"1001"</code> have a distance of 3.</p>
